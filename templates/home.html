@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Breed Identifier</title>
+    <meta
+      name="description"
+      content="Find out what breed your dog is with our easy-to-use dog breed identifier."
+    />
+    <link rel="stylesheet" href="/home.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dog Breed Identifier</h1>
+      <p>
+        Find out what breed your dog is with our easy-to-use dog breed
+        identifier.
+      </p>
+    </header>
+    <main>
+      <input
+        type="file"
+        hidden
+        id="img"
+        name="image"
+        accept="image/png, image/jpeg"
+      />
+      <div class="img">
+        <h3>Select File</h3>
+      </div>
+      <button class="btn hidden">Identify</button>
+      <h3 class="prediction hidden"></h3>
+      <div class="loader hidden"></div>
+    </main>
+    <footer>© 2022 Febrian</footer>
+  </body>
+  <script src="/home.js"></script>
+</html>
